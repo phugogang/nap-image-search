@@ -1,0 +1,50 @@
+<html>
+    <header>
+        <title>Image Search Abstraction Layer</title>
+
+        <style>
+            .container {
+                margin: 0 auto;
+                width: 50%;
+            }
+
+            h1 {
+                margin: 60px auto;
+                color: red;
+                text-shadow: 1px 2px 2px;
+            }
+
+            h2 {
+                color: blue;
+            }
+
+            code {
+                padding: 2px;
+                background-color: bisque; 
+                margin-bottom: 4px;               
+            }
+
+            span {
+                font-weight: 900;
+                color:red
+            }
+
+        </style>
+    </header>
+    <body>
+<div class='container'>
+<h1>Image Search Abstraction Layer</h1>
+
+<h2>Syntax:</h2>
+<code><%= url %>/api/imagesearch/<span>[keyword]</span>?offset=<span>[offset]</span></code>
+<h2>Example: </h2>
+<p><code><%= url %>/api/imagesearch/<span>dogs</span>?offset=<span>10</span></code></p>
+
+<p><code><%= url %>/api/imagesearch/<span>cats</span>?offset=<span>19</span></code></p>
+</div>
+
+
+    </body>
+</html>
+
+
